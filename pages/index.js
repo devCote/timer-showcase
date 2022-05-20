@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react'
 import { PlayIcon, StopIcon, PauseIcon, MarkIcon } from '../components/icons.js'
 import styled from "@emotion/styled"
 
-const Results = styled.div`&:last-child {color: red}`
 const Controls = styled.div`&:hover {color: darkgreen}  &:active {color: green}`
 
 const Main = () => {
